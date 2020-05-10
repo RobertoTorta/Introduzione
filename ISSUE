@@ -14,8 +14,8 @@ Riuscire ad avere accesso ai dati aggiornati del contagio, in modo pratico ed in
 
 ###Descrizione dei data-set per la valutazione: 
 I dati verrano presi dal repository del dipartimento della protezione civile italiana (https://github.com/pcm-dpc/COVID-19),
-verrano scaricati in formato csv tramite wget, letti su Java ed usati per popolare un Database su HeidiSQL per poi poter effetturare
-le interrogazioni sql desiderate.
+verrano scaricati in formato csv tramite wget, caricati su HeidiSQL in un database creato manualmente tramite l'importazione
+di file csv per poi poter effetturare le interrogazioni sql desiderate.
 
 ###Descrizione preliminare degli algoritmi coinvolti: 
 I principali problemi da affrontare saranno la lettura dati csv, il popolamento dei database, la creazione 
